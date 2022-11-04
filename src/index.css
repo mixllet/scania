@@ -1,13 +1,32 @@
-body {
+html, body {
+  background-color: #E5E5E5;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+.scaniaBlue {
+  background-color: #041E42;
+}
+.scaniaHeader {
+  background-color: #fff;
+  font: 
+}
+.scaniaContent {
+  background-color: #E5E5E5;
+}
+.scaniaLogo {
+  height: 3em;
+}
+.scaniaTableHeader {
+  background: #E0E2EB;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.headerText {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 1em;
+}
+
+.resetButton {
+  color: #2058A8 !important;
 }
